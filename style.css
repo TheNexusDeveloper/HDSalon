@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    background: black;
+    color: bisque;
+    padding: 16px 20px;
+    overflow: hidden;
+}
+
+.logo{
+    padding: 14px 10px;
+    margin-left: 10%;
+}
+
+.nav{
+    margin-left: 35%;
+    float: right;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    float: right;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+main{
+    background-color: bisque;
+}
+
+.showcase{
+    
+    position: relative;
+}
+
+.showcase img{
+    width: 100%;
+    height: auto;
+    filter: brightness(45%);
+}
+
+.showcase .text{
+    position: absolute;
+    color: bisque;
+    top: 20%;
+    left: 60px;
+    width: 60%;
+    
+}
+
+
+.showcase h1{
+    font-size: 3.8em;
+    
+}
+
+.showcase p{
+    font-size: x-large;
+}
+
+div > .row{
+    padding: 40px 0px ;
+    
+}
+
+.abt-text{
+    padding: 100px;
+    font-size: 1.3rem;
+}
+
+.abt-img{
+    padding: 20px 10px;
+}
+.card{
+    width: 14rem;
+ 
+}
+
+.card-body{
+    background-color: rgba(255, 228, 196, 0.452);
+}
+
+.card:hover{
+    box-shadow: 5px 10px 5px 10px rgba(0, 0, 0, 0.404);
+    transform: translateY(5px);
+    z-index: 3;
+    transition: 0.5s;
+}
+
+div h1{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: beige;
+}
+.footlogo{
+    padding: 15px;
+}
